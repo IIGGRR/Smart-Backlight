@@ -16,7 +16,6 @@ e.active(True)
 
 peer1 = b''  # MAC address of peer2's wifi interface
 e.add_peer(peer1)  # add peer2 (receiver2)c8:c9:a3:39:10:f6
-
 print("Starting...")  # Send to all peers
 
 

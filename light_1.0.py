@@ -10,6 +10,7 @@ led_pin3 = 1
 led_pin4 = 2
 num_leds = 5
 
+
 led2 = neopixel.NeoPixel(Pin(led_pin1, Pin.OUT), num_leds)
 led4 = neopixel.NeoPixel(Pin(led_pin2, Pin.OUT), num_leds)
 led1 = neopixel.NeoPixel(Pin(led_pin3, Pin.OUT), num_leds)
